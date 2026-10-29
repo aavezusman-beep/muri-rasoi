@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en-IN"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>Admin | Vaishnavi Banquet</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="admin" data-file="admin.html">
+<div id="login" class="wrap" style="max-width:420px;padding:4rem 0">
+  <div class="card">
+    <p class="eyebrow">Owner &amp; staff access</p>
+    <h1 style="font-size:2.2rem">Admin Login</h1>
+    <div id="login-notice"></div>
+    <form class="form" id="login-form">
+      <div><label for="em">Email</label><input id="em" type="email" autocomplete="username" required></div>
+      <div><label for="pw">Password</label><input id="pw" type="password" autocomplete="current-password" required></div>
+      <button class="btn btn-maroon" type="submit">Sign in</button>
+    </form>
+    <p class="hint muted" style="margin-top:1rem;font-size:.8rem">Accounts are created in Supabase. See README. Password reset is available via Supabase Authentication.</p>
+  </div>
+</div>
+
+<div id="app" hidden class="admin-wrap">
+  <aside class="admin-nav" aria-label="Admin sections">
+    <strong style="font-family:'Cormorant Garamond',serif;font-size:1.3rem;padding:.2rem .7rem">Admin</strong>
+    <button data-tab="overview" class="on">Overview</button>
+    <button data-tab="bookings">Bookings</button>
+    <button data-tab="calendar">Calendar &amp; Blocks</button>
+    <button data-tab="packages">Packages</button>
+    <button data-tab="menu">Menu</button>
+    <button data-tab="gallery">Gallery</button>
+    <button data-tab="content">Content &amp; Hall</button>
+    <button data-tab="testimonials">Testimonials</button>
+    <button data-tab="export">Export &amp; Backup</button>
+    <button data-tab="settings">Settings</button>
+    <button id="logout" style="margin-top:auto">Sign out</button>
+  </aside>
+  <main class="admin-main" id="panel" aria-live="polite"></main>
+</div>
+<div id="toast" class="toast" role="status"></div>
+
+<script src="js/config.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script src="js/common.js"></script>
+<script src="js/admin.js"></script>
+</body></html>
