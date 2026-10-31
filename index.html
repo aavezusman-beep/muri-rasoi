@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vaishnavi Banquet, Silli Ranchi | Marriage Hall and Event Venue</title>
+<meta name="description" content="Vaishnavi Banquet in Silli, Ranchi: marriage hall, wedding stage, receptions, birthday and corporate events. Send an enquiry online or call.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="topbar" id="top">
+  <a href="#top" class="brand" aria-label="Vaishnavi Banquet home"><span>Vaishnavi</span> Banquet</a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="nav" aria-label="Open menu">&#9776;</button>
+  <nav id="nav" class="nav">
+    <a href="#about">About</a>
+    <a href="#events">Events</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#facilities">Facilities</a>
+    <a href="#restaurant">Restaurant</a>
+    <a href="#packages">Packages</a>
+    <a href="#reviews">Reviews</a>
+    <a href="#contact">Contact</a>
+    <a href="#book" class="btn btn-gold btn-small">Book Now</a>
+  </nav>
+</header>
+
+<section class="hero" id="home">
+  <img class="hero-img" src="images/hall-interior.jpg" alt="Main banquet hall of Vaishnavi Banquet, decorated for an event">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="eyebrow">Silli, Ranchi</p>
+    <h1>Where Every Celebration Becomes a Beautiful Memory</h1>
+    <p class="lead">Celebrate your special moments with elegance, comfort and unforgettable hospitality at Vaishnavi Banquet.</p>
+    <div class="cta-row">
+      <a href="#about" class="btn btn-outline">Explore Our Venue</a>
+      <a href="#book" class="btn btn-gold">Book Your Event</a>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="container split">
+    <div>
+      <p class="eyebrow">About Us</p>
+      <h2>A Celebration Destination</h2>
+      <p>Vaishnavi Banquet is a celebration destination designed to make every occasion special. From weddings and receptions to birthday parties and corporate gatherings, we provide a welcoming venue and thoughtfully arranged celebrations.</p>
+      <ul class="check-list">
+        <li>Venue and hall arrangements</li>
+        <li>Hospitality for you and your guests</li>
+        <li>Event decoration and stage setup</li>
+        <li>Food and catering</li>
+        <li>A comfortable guest experience</li>
+      </ul>
+    </div>
+    <img class="rounded" src="images/facade-wide.jpg" alt="Front entrance of Vaishnavi Banquet">
+  </div>
+</section>
+
+<section class="section alt" id="events">
+  <div class="container">
+    <p class="eyebrow">Events</p>
+    <h2>Occasions We Host</h2>
+    <div class="grid cards" id="events-grid"></div>
+  </div>
+</section>
+
+<section class="section" id="gallery">
+  <div class="container">
+    <p class="eyebrow">Gallery</p>
+    <h2>Moments From the Venue</h2>
+    <div class="filters" id="gallery-filters"></div>
+    <div class="masonry" id="gallery-grid"></div>
+  </div>
+</section>
+
+<section class="section alt" id="facilities">
+  <div class="container">
+    <p class="eyebrow">Facilities and Services</p>
+    <h2>What We Offer</h2>
+    <div class="grid facilities" id="facilities-grid"></div>
+  </div>
+</section>
+
+<section class="section" id="restaurant">
+  <div class="container">
+    <p class="eyebrow">Food Court and Menu</p>
+    <img src="images/logo-vr.png" alt="VR Vaishnavi Restaurant logo" style="width:150px;margin:0 0 12px">
+    <h2>VR Vaishnavi Restaurant</h2>
+    <p class="muted">Our associated restaurant. The menu below is a sample layout; the restaurant will provide the final dishes and prices.</p>
+    <div class="menu-tools">
+      <input type="search" id="menu-search" placeholder="Search dishes" aria-label="Search dishes">
+      <div class="filters" id="menu-filters"></div>
+    </div>
+    <div class="menu-list" id="menu-list"></div>
+  </div>
+</section>
+
+<section class="section alt" id="packages">
+  <div class="container">
+    <p class="eyebrow">Packages</p>
+    <h2>Packages and Pricing</h2>
+    <p class="muted">Prices are shared on enquiry. Choose a package in the booking form or ask for a custom plan.</p>
+    <div class="grid cards" id="packages-grid"></div>
+  </div>
+</section>
+
+<section class="section" id="reviews">
+  <div class="container">
+    <p class="eyebrow">Reviews</p>
+    <h2>What Guests Say</h2>
+    <div class="grid cards" id="reviews-grid"></div>
+    <div class="center">
+      <a class="btn btn-outline" id="google-reviews" href="https://www.google.com/maps/search/?api=1&query=Vaishnavi+Banquet+Silli+Ranchi" target="_blank" rel="noopener">Read More Google Reviews</a>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="book">
+  <div class="container split">
+    <div>
+      <p class="eyebrow">Booking Enquiry</p>
+      <h2>Check a Date and Send an Enquiry</h2>
+      <p>Green dates are open. Pick one, then send your details. This is an enquiry: our team will contact you to confirm, and a date is only booked once we confirm it.</p>
+      <div class="calendar" id="calendar" aria-live="polite"></div>
+      <div class="legend"><span class="dot open"></span>Open <span class="dot closed"></span>Not available</div>
+    </div>
+    <form id="enquiry-form" class="card form" novalidate>
+      <h3>Your Details</h3>
+      <div class="field"><label for="f-name">Full name *</label><input id="f-name" name="name" autocomplete="name" required><small class="err" data-for="name"></small></div>
+      <div class="field"><label for="f-phone">Mobile number *</label><input id="f-phone" name="phone" inputmode="tel" autocomplete="tel" placeholder="10-digit mobile" required><small class="err" data-for="phone"></small></div>
+      <div class="field"><label for="f-email">Email (optional)</label><input id="f-email" name="email" type="email" autocomplete="email"><small class="err" data-for="email"></small></div>
+      <div class="row2">
+        <div class="field"><label for="f-event">Event type *</label><select id="f-event" name="eventType" required></select><small class="err" data-for="eventType"></small></div>
+        <div class="field"><label for="f-date">Event date *</label><input id="f-date" name="date" type="date" required><small class="err" data-for="date"></small></div>
+      </div>
+      <div class="row2">
+        <div class="field"><label for="f-guests">Expected guests *</label><input id="f-guests" name="guests" type="number" min="1" max="5000"><small class="err" data-for="guests"></small></div>
+        <div class="field"><label for="f-package">Preferred package</label><select id="f-package" name="package"></select></div>
+      </div>
+      <div class="field"><label for="f-budget">Approximate budget (optional)</label><input id="f-budget" name="budget" placeholder="For example: as per package"></div>
+      <div class="field"><label for="f-req">Additional requirements</label><textarea id="f-req" name="requirements" rows="3"></textarea></div>
+      <input type="text" name="website" tabindex="-1" autocomplete="off" class="hp" aria-hidden="true">
+      <div class="cta-row">
+        <button type="submit" class="btn btn-gold" id="submit-btn">Submit Enquiry</button>
+        <a class="btn btn-outline" id="wa-book" href="#" target="_blank" rel="noopener">Book Through WhatsApp</a>
+        <a class="btn btn-outline" id="call-now" href="tel:+919334192001">Call Now</a>
+      </div>
+      <p class="form-msg" id="form-msg" role="status"></p>
+    </form>
+  </div>
+</section>
+
+<section class="section" id="contact">
+  <div class="container split">
+    <div>
+      <p class="eyebrow">Contact Us</p>
+      <h2>Visit or Call Us</h2>
+      <div id="contact-info"></div>
+      <div class="cta-row">
+        <a class="btn btn-gold" id="contact-call" href="#">Call Now</a>
+        <a class="btn btn-outline" id="contact-wa" href="#" target="_blank" rel="noopener">WhatsApp</a>
+        <a class="btn btn-outline" id="directions" href="#" target="_blank" rel="noopener">Get Directions</a>
+      </div>
+    </div>
+    <div class="map-wrap">
+      <iframe id="map" title="Map of Vaishnavi Banquet, Silli" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="brand"><span>Vaishnavi</span> Banquet</div>
+      <p id="footer-tagline"></p>
+      <p class="muted small">Main Road, Silli, Ranchi, Jharkhand</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <a href="#about">About</a><a href="#events">Events</a><a href="#gallery">Gallery</a><a href="#restaurant">Restaurant</a><a href="#book">Book Now</a><a href="#contact">Contact</a>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <p class="small" id="footer-contact"></p>
+      <p class="small"><a href="admin.html">Owner login</a></p>
+    </div>
+  </div>
+  <div class="container credit">
+    <p>&copy; <span id="year"></span> Vaishnavi Banquet. All rights reserved.</p>
+    <p>Designed &amp; Developed by <strong>Aavez Usman</strong> &middot; <a href="tel:+917004898475">7004898475</a> &middot; <a href="https://www.instagram.com/aavez_usman" target="_blank" rel="noopener">Instagram @aavez_usman</a></p>
+    <p><a href="tel:+917004898475">Need a Website for Your Business?</a></p>
+  </div>
+</footer>
+
+<a class="float-wa" id="float-wa" href="#" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WhatsApp</a>
+<a class="float-call" id="float-call" href="tel:+919334192001" aria-label="Call Vaishnavi Banquet">Call</a>
+<button class="to-top" id="to-top" aria-label="Back to top">&uarr;</button>
+
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Photo viewer">
+  <button class="lb-close" aria-label="Close">&times;</button>
+  <button class="lb-prev" aria-label="Previous photo">&lsaquo;</button>
+  <figure><img id="lb-img" alt=""><figcaption id="lb-cap"></figcaption></figure>
+  <button class="lb-next" aria-label="Next photo">&rsaquo;</button>
+</div>
+
+<script src="js/config.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

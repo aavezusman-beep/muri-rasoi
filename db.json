@@ -1,0 +1,80 @@
+{
+  "content": {
+    "tagline": "Your Celebration, Our Passion.",
+    "hall": {
+      "name": "Vaishnavi Banquet",
+      "capacity": "",
+      "areas": ["Main banquet hall", "Wedding stage", "Dining area", "Decoration setup", "Entrance and open-air area"],
+      "note": ""
+    },
+    "contact": {
+      "address": "Main Road, Silli, Ranchi, Jharkhand, India",
+      "phones": ["9334192001", "7004780657"],
+      "whatsapp": "7004780657",
+      "mapsQuery": "Vaishnavi Banquet Silli Ranchi Jharkhand",
+      "hours": "Open 24 hours",
+      "wheelchair": true,
+      "restaurant": "VR Vaishnavi Restaurant"
+    },
+    "facilities": [
+      { "title": "Parking", "text": "Parking is available at the venue.", "icon": "P", "active": true },
+      { "title": "Wheelchair-accessible entrance", "text": "Accessible entrance, exit and parking.", "icon": "W", "active": true },
+      { "title": "Catering services", "text": "Food and catering arranged for your event.", "icon": "C", "active": true },
+      { "title": "Decoration services", "text": "Stage and hall decoration arranged for your occasion.", "icon": "D", "active": true },
+      { "title": "Stage setup", "text": "Stage arrangements for weddings and receptions.", "icon": "S", "active": true },
+      { "title": "Lighting arrangements", "text": "Lighting arranged for your event.", "icon": "L", "active": true },
+      { "title": "Power backup", "text": "", "icon": "B", "active": false },
+      { "title": "Guest rooms", "text": "", "icon": "R", "active": false },
+      { "title": "Air-conditioned hall", "text": "", "icon": "A", "active": false }
+    ],
+    "events": [
+      { "title": "Weddings", "text": "A welcoming setting for your wedding day, with stage arrangements and decoration.", "image": "images/wedding-stage.jpg" },
+      { "title": "Receptions", "text": "Elegant receptions with hospitality and well-managed arrangements.", "image": "images/stage-backdrop.jpg" },
+      { "title": "Engagements", "text": "A beautifully decorated space for your engagement ceremony.", "image": "images/decor-drapes.jpg" },
+      { "title": "Birthday Parties", "text": "Celebrations of every age, from intimate gatherings to bigger parties.", "image": "images/decor-entrance-floral.jpg" },
+      { "title": "Anniversaries", "text": "Mark your milestones with a warm and thoughtfully arranged evening.", "image": "images/decor-close.jpg" },
+      { "title": "Corporate Events", "text": "A professional venue for gatherings and corporate functions.", "image": "images/hall-interior.jpg" },
+      { "title": "Private Parties", "text": "Private celebrations arranged around your plans.", "image": "images/facade-wide.jpg" }
+    ],
+    "gallery": [
+      { "src": "images/hall-interior.jpg", "category": "Banquet Interiors", "caption": "Main banquet hall" },
+      { "src": "images/facade-wide.jpg", "category": "Banquet Interiors", "caption": "Venue entrance" },
+      { "src": "images/wedding-stage.jpg", "category": "Weddings", "caption": "Wedding stage" },
+      { "src": "images/stage-backdrop.jpg", "category": "Weddings", "caption": "Stage backdrop" },
+      { "src": "images/decor-drapes.jpg", "category": "Decorations", "caption": "Entrance drapery" },
+      { "src": "images/decor-close.jpg", "category": "Decorations", "caption": "Floral detailing" },
+      { "src": "images/decor-entrance-floral.jpg", "category": "Decorations", "caption": "Floral entrance" },
+      { "src": "images/facade-stairs.jpg", "category": "Decorations", "caption": "Staircase decoration" },
+      { "src": "images/facade-day.jpg", "category": "Decorations", "caption": "Front decoration" },
+      { "src": "images/sign-night.jpg", "category": "Banquet Interiors", "caption": "Venue signboard" },
+      { "src": "images/sign-day.jpg", "category": "Banquet Interiors", "caption": "Venue signboard by day" }
+    ],
+    "packages": [
+      { "name": "Silver Package", "pricing": "Contact for pricing", "features": ["Sample feature: hall booking", "Sample feature: basic decoration"], "draft": true },
+      { "name": "Gold Package", "pricing": "Contact for pricing", "features": ["Sample feature: hall booking", "Sample feature: stage decoration", "Sample feature: food options"], "draft": true },
+      { "name": "Platinum Package", "pricing": "Contact for pricing", "features": ["Sample feature: hall booking", "Sample feature: premium decoration", "Sample feature: food options"], "draft": true },
+      { "name": "Custom Package", "pricing": "Contact for pricing", "features": ["Tell us what you need and we will prepare a plan"], "draft": false }
+    ],
+    "menu": {
+      "categories": ["Starters", "Main Course", "Rice & Biryani", "Breads", "Desserts", "Beverages"],
+      "items": [
+        { "id": "m1", "name": "Sample Paneer Tikka", "category": "Starters", "description": "Demo dish. Replace with the real menu.", "price": "", "available": true },
+        { "id": "m2", "name": "Sample Veg Spring Rolls", "category": "Starters", "description": "Demo dish. Replace with the real menu.", "price": "", "available": true },
+        { "id": "m3", "name": "Sample Dal Makhani", "category": "Main Course", "description": "Demo dish. Replace with the real menu.", "price": "", "available": true },
+        { "id": "m4", "name": "Sample Paneer Butter Masala", "category": "Main Course", "description": "Demo dish. Replace with the real menu.", "price": "", "available": true },
+        { "id": "m5", "name": "Sample Veg Biryani", "category": "Rice & Biryani", "description": "Demo dish. Replace with the real menu.", "price": "", "available": true },
+        { "id": "m6", "name": "Sample Jeera Rice", "category": "Rice & Biryani", "description": "Demo dish. Replace with the real menu.", "price": "", "available": true },
+        { "id": "m7", "name": "Sample Butter Naan", "category": "Breads", "description": "Demo dish. Replace with the real menu.", "price": "", "available": true },
+        { "id": "m8", "name": "Sample Gulab Jamun", "category": "Desserts", "description": "Demo dish. Replace with the real menu.", "price": "", "available": true },
+        { "id": "m9", "name": "Sample Soft Drinks", "category": "Beverages", "description": "Demo item. Replace with the real menu.", "price": "", "available": true }
+      ]
+    },
+    "reviews": [
+      { "text": "Nice and well maintained banquets and the restaurant's food is amazing.", "name": "KrishnAahir KrishnAahir" },
+      { "text": "Good arrangement for birthday party to marriage ceremony, all occasions.", "name": "Rajesh Shaw" },
+      { "text": "The arrangements are top notch, everything was well managed.", "name": "Mahika Sri" }
+    ]
+  },
+  "availability": {},
+  "enquiries": []
+}

@@ -1,0 +1,17 @@
+{
+  "name": "vaishnavi-banquet",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Vaishnavi Banquet website with Supabase database and admin dashboard",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "express": "^4.19.2"
+  }
+}
